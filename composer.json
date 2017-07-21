@@ -1,0 +1,25 @@
+{
+	"name": "dbstudios/symfony-command-helpers",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Tyler Lartonoix",
+			"email": "tyler@lartonoix.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"DaybreakStudios\\Utility\\SymfonyCommandHelpers\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.6",
+		"symfony/console": "~3.3",
+		"dbstudios/datetime-helpers": "~1.0"
+	},
+	"config": {
+		"platform": {
+			"php": "5.6"
+		}
+	}
+}
